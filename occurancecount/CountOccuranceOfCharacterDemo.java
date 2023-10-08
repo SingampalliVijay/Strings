@@ -1,0 +1,22 @@
+package com.kn.occurancecount;
+
+import java.util.Scanner;
+
+public class CountOccuranceOfCharacterDemo {
+
+	public static void main(String[] args) {
+	
+	Scanner scan=new Scanner(System.in);
+	
+	System.out.println("Enter the String");
+    String inputstring=scan.nextLine();
+    
+    
+    CountOccuranceOfCharacter countOccurance=new CountOccuranceOfCharacter();
+    
+    countOccurance.countCharacters(inputstring);
+
+    scan.close();
+	}
+
+}
